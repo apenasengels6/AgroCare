@@ -5,10 +5,25 @@ header{
 }body{
     margin: 0;
     background-color:#7C894C;
-    margin-top: ;
+   
 }.inicio{
     background-color: white;
     margin-right: 100px;
     padding: 220px;
-    margin-top: 20px;
+    margin-top: 10px; 
+    line-height: 30px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}input{
+    margin: 20px;
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color: #D9E8A1;
+    border-style: none;
+}select{
+    margin: 40px;
+    margin-left: 2px;
+    border-radius:20px;
+    background-color: #D9E8A1;
+    border-style: none;
 }
