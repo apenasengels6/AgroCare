@@ -8,20 +8,25 @@
     <link rel="stylesheet"  type="text/css" href="fazenda.css">
 </head>
 <header>
-   <img src="logo.png" width="200px">
+   <img src="logo.png" width="200px" height="170">
 </header>
 <body>
     <div class="inicio">
    
-        <p><legend>Cadastrar Fazenda</legend></p>
+        <p><legend>Cadastrar Fazenda</legend></p><br>
         <label>Nome da Fazenda:</label>
         <input type="text" size="20" maxlength="20">
         <label>Endereço:</label>
-        <input type="text" size="20" maxlength="20"><br><br>
+        <input type="text" size="20" maxlength="20"><br>
         <label>Bairro:</label>
         <input type="text">
+        
         <label>Número:</label>
-        <input type="text" size="20" maxlength="20"><br><br>
+        <input type="text" size="20" maxlength="20"><br>
+        <label>Cidade:</label>
+        <input type="text" size="20" maxlength="20">
+        <label>CEP:</label>
+        <input type="text" size="20" maxlength="20"><br>
         <label>Estado:</label>
         <select>
             <option value="AC">Acre</option>
@@ -54,12 +59,10 @@
             <option value="EX">Estrangeiro</option>
         </select>
 
-        <label>CEP:</label>
-        <input type="text" size="20" maxlength="20"><br><br>
-
-        <input type="submit" value="Cancelar">
-        <input type="submit" value="Cadastrar"><br><br>
-    
+    <div class="button">
+        <button class="btn-cancelar">Cancelar</button>
+        <button class="btn-cadastrar">Cadastrar</button>
+    </div>
         <footer>
             *Ao clicar  em Cadastrar, todas as informações digitadas<br>
              serão salvas, confira se os dados estão corretos.
