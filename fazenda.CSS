@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 header{
     background-color: #7C894C;
     text-align: left;
@@ -8,16 +9,19 @@ header{
    
 }.inicio{
     background-color: white;
-    margin-right: 100px;
-    padding: 220px;
-    margin-top: 10px; 
+    text-align: left;
+    border-radius: 10px;
+    margin-right: 200px;
+    padding: 5px 10px;
+    margin-top: 2px; 
     line-height: 30px;
-    font-size: large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-size: larger;
+    font-family:'Poppins', sans-serif;
+    
 }input{
     margin: 20px;
-    margin-left: 5px;
-    border-radius: 10px;
+    margin-left: 1px;
+    border-radius: 30px;
     background-color: #D9E8A1;
     border-style: none;
 }select{
@@ -26,4 +30,57 @@ header{
     border-radius:20px;
     background-color: #D9E8A1;
     border-style: none;
+    padding:5px;
+}label{
+    color: #7C894C;
+    font-size: large;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+
+}legend{
+    color: #7C894C;
+    font-size: 40px;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+
+}footer{
+    color:#7C894C;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+
+}.button{
+    color: #7C894C;
+    border-radius: 20px;
+    font-size: smaller;
+    font-family:'Poppins', sans-serif; ;
+
+}.btn-cancelar{
+    background-color: #b42525;
+    text-align: center;
+    padding: 5px 0px;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    
+}.btn-cadastrar{
+    background-color: #4A5034;
+    text-align: center;
+    padding: 5px 0px;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}.button{
+    width: 2000px;
+    margin: 0 auto;
 }
